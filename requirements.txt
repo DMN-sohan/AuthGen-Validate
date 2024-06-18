@@ -1,0 +1,16 @@
+# Original dependencies
+bchlib==1.0.0
+numpy==1.21.6
+opencv_python==4.8.0.76
+Pillow==9.5.0
+tensorflow==1.13.2
+
+# Flask dependencies replaced with FastAPI equivalents
+fastapi==0.95.0
+uvicorn==0.20.0
+databases==0.5.3
+aiomysql==0.1.1
+sqlalchemy==1.4.46
+
+# FastAPI built-in CORS support
+protobuf==3.20.*
